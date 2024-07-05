@@ -1,21 +1,37 @@
 ---
-title: "Solution to Problem 1"
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2024-07-06 00:30:49 +0300
+categories: jekyll update
 ---
 
-## Problem
-Describe the problem here.
+Since there are small oscillations, $\theta\rightarrow0$, but terms $\theta^2$ and $\theta^3$ tend to zero faster than $\theta$, so they are negligible respect to $\theta$.
 
 $$
-dasdsa
+\left[\frac{g}{l}-\frac{kqQ\left(l+h\right)}{mh^3l}\right]\theta = \ddot{\theta}
 $$
 
-## Solution
-Write the solution here, using LaTeX for equations if needed.
+as $k = \frac{1}{4\pi\epsilon_0}$,
 
 $$
-x^2+x=0
+\left[\frac{g}{l}-\frac{qQ\left(l+h\right)}{4\pi\epsilon_0mh^3l}\right]\theta = \ddot{\theta}
 $$
 
+Finally,
+
 $$
-E_k = E_0 \sin^2\omega t
+\boxed{\omega = \sqrt{\frac{g}{l}-\frac{qQ\left(h+l\right)}{4\pi\epsilon_0mh^3l}}}
 $$
+
+valid for the condition $\frac{qQ(h+l)}{4\pi\epsilon_0h^3} < mg$
+
+<img align="center"  width="28px" src="https://github.com/astrosander/WallTime/blob/main/Themes/snakes.png" />
+
+<p align="center">
+  <a href="https://github.com/astrosander/cambridge-dictionary-audio" target="blank"><img src="Design/logo.png" width="120" alt="Logo" /></a>
+</p>
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
