@@ -1,8 +1,5 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
-date:   2024-07-06 00:30:49 +0300
-categories: jekyll update
+title: "Solution to Problem 1"
 ---
 
 ## Problem
