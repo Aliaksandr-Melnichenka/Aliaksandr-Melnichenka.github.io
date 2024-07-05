@@ -1,0 +1,21 @@
+---
+title: "Solution to Problem 1"
+---
+
+## Problem
+Describe the problem here.
+
+$$
+dasdsa
+$$
+
+## Solution
+Write the solution here, using LaTeX for equations if needed.
+
+$$
+x^2+x=0
+$$
+
+$$
+E_k = E_0 \sin^2\omega t
+$$
