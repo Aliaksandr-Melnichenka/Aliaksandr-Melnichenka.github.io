@@ -7,11 +7,14 @@ categories: jekyll update
 
 ## Problem
 Describe the problem here.
+
 $$
 dasdsa
 $$
+
 ## Solution
 Write the solution here, using LaTeX for equations if needed.
+
 $$
-dsadas
+x^2+x=0
 $$
