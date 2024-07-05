@@ -1,0 +1,22 @@
+---
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{ "/assets/main.css" | relative_url }}">
+  {% include mathjax.html %}
+</head>
+<body>
+  <header>
+    <h1>{{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+  </header>
+  <main>
+    {{ content }}
+  </main>
+  <footer>
+    &copy; {{ site.time | date: "%Y" }} {{ site.title }}
+  </footer>
+</body>
+</html>
