@@ -16,7 +16,7 @@ module Jekyll
       <<-HTML
       <center>
         <figure>
-          <img src="#{img_url}" loading="lazy" alt="#{img_name}" width="500" />
+          <img src="#{img_url}" loading="lazy" alt="#{img_name}" width="30%" />
           <figcaption>
             #{alt_text}
           </figcaption>
