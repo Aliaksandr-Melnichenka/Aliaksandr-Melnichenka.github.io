@@ -72,3 +72,8 @@ Note: Calculations were made considering $g$ = 9.8 N/kg and $\sqrt{2}$ = 1.41.
 	Physics Department (FCNE)<br>
 	Universidad de Oriente, Cuba<br>
 </p>
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/

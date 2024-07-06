@@ -5,31 +5,68 @@ date:   2024-07-06 00:30:49 +0300
 categories: jekyll update
 ---
 
+## Statement 
+$2.8.1$ The figure shows structures that hold a load weighing 10 kg. The cables are represented by thin lines, the rod is represented by a double line. Determine the tension force of the cables for case a and the force acting on the rod from the side of the cable thrown over it for case b.  
+
 Since there are small oscillations, $\theta\rightarrow0$, but terms $\theta^2$ and $\theta^3$ tend to zero faster than $\theta$, so they are negligible respect to $\theta$.
+![Image description](https://savchenko-physics.github.io/en/2.8.1/statement.png){: style="display: block; margin-left: auto; margin-right: auto;" }
+## Solution
+Let's consider the following figure
+![Image description](https://savchenko-physics.github.io/en/2.8.1/draw.png){: style="display: block; margin-left: auto; margin-right: auto;" }
+$a$. Applying Newton Second Law for $x$-direction
 
 $$
-\left[\frac{g}{l}-\frac{kqQ\left(l+h\right)}{mh^3l}\right]\theta = \ddot{\theta}
+T_2~\cos{30^\circ}-T_1~\cos{30^\circ}=0
 $$
 
-as $k = \frac{1}{4\pi\epsilon_0}$,
 
 $$
-\left[\frac{g}{l}-\frac{qQ\left(l+h\right)}{4\pi\epsilon_0mh^3l}\right]\theta = \ddot{\theta}
+T_1=T_2 \;(1)
 $$
 
-Finally,
+for $y$-direction
 
 $$
-\boxed{\omega = \sqrt{\frac{g}{l}-\frac{qQ\left(h+l\right)}{4\pi\epsilon_0mh^3l}}}
+(T_1+T_2)~\sin{30^\circ} = mg \;(2)
 $$
 
-valid for the condition $\frac{qQ(h+l)}{4\pi\epsilon_0h^3} < mg$
+Let be $T_1=T_2=T$, so, back to $(2)$
 
-<img align="center"  width="28px" src="https://github.com/astrosander/WallTime/blob/main/Themes/snakes.png" />
+$$
+2T~\sin{30^\circ}=mg
+$$
 
-<p align="center">
-  <a href="https://github.com/astrosander/cambridge-dictionary-audio" target="blank"><img src="Design/logo.png" width="120" alt="Logo" /></a>
-</p>
+
+$$
+T = \frac{mg}{2~\sin{30^\circ}} = mg = \boxed{98~\rm{N}}
+$$
+
+$b$. According figure,
+
+$$
+F^2 = T^2+T^2 = 2T^2
+$$
+
+We consider the same tension $T$ because we suppose the threads are unextensible.
+
+$$
+F = \sqrt{2}~T \;(3)
+$$
+
+Applying Newton Second Law
+
+$$
+T = mg \;(4)
+$$
+
+Putting $(4)$ into $(3)$
+
+$$
+F = \sqrt{2}~mg = \boxed{138~\rm{N}}
+$$
+
+Note: Calculations were made considering $g$ = 9.8 N/kg and $\sqrt{2}$ = 1.41.
+
 
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
