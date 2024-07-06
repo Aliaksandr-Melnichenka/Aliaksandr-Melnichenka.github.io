@@ -19,8 +19,6 @@ $$
 T_2~\cos{30^\circ}-T_1~\cos{30^\circ}=0
 $$
 
-
-<!-- {% centered_image https://savchenko-physics.github.io/en/2.8.1/draw.png "Example Image" %} -->
 {% custom_tag %}
 
 $$
