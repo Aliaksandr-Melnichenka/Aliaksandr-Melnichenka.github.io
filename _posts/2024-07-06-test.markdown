@@ -19,7 +19,7 @@ $$
 T_2~\cos{30^\circ}-T_1~\cos{30^\circ}=0
 $$
 
-{% render_time %}
+<!-- {% render_time %} -->
 
 $$
 T_1=T_2 \;(1)
