@@ -1,0 +1,6 @@
+<!-- Example of a custom tag include file -->
+<div class="custom-tag">
+  {% if include.content %}
+    {{ include.content | markdownify }}
+  {% endif %}
+</div>
