@@ -9,15 +9,14 @@ categories: jekyll update
 $2.8.1$ The figure shows structures that hold a load weighing 10 kg. The cables are represented by thin lines, the rod is represented by a double line. Determine the tension force of the cables for case a and the force acting on the rod from the side of the cable thrown over it for case b.  
 
 Since there are small oscillations, $\theta\rightarrow0$, but terms $\theta^2$ and $\theta^3$ tend to zero faster than $\theta$, so they are negligible respect to $\theta$.
-![Image description](https://savchenko-physics.github.io/en/2.8.1/statement.png){: style="display: block; margin-left: auto; margin-right: auto;" }
+
 ## Solution
 Let's consider the following figure
-![Image description](https://savchenko-physics.github.io/en/2.8.1/draw.png){: style="display: block; margin-left: auto; margin-right: auto;" }
-$a$. Applying Newton Second Law for $x$-direction
 
 $$
 T_2~\cos{30^\circ}-T_1~\cos{30^\circ}=0
 $$
+
 
 $$
 T_1=T_2 \;(1)
