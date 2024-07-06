@@ -12,7 +12,7 @@ Since there are small oscillations, $\theta\rightarrow0$, but terms $\theta^2$ a
 ![Image description](https://savchenko-physics.github.io/en/2.8.1/statement.png){: style="display: block; margin-left: auto; margin-right: auto;" }
 ## Solution
 Let's consider the following figure
-![Image description](https://savchenko-physics.github.io/en/2.8.1/draw.png){: style="display: block; margin-left: auto; margin-right: auto;" }
+![Image description](https://savchenko-physics.github.io/en/2.8.1/draw.png)
 $a$. Applying Newton Second Law for $x$-direction
 
 $$
