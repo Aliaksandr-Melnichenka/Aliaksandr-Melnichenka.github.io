@@ -1,0 +1,79 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2024-07-06 00:30:49 +0300
+categories: jekyll update
+---
+
+## Statement 
+$2.8.1$ The figure shows structures that hold a load weighing 10 kg. The cables are represented by thin lines, the rod is represented by a double line. Determine the tension force of the cables for case a and the force acting on the rod from the side of the cable thrown over it for case b.  
+
+Since there are small oscillations, $\theta\rightarrow0$, but terms $\theta^2$ and $\theta^3$ tend to zero faster than $\theta$, so they are negligible respect to $\theta$.
+![Image description](https://savchenko-physics.github.io/en/2.8.1/statement.png){: style="display: block; margin-left: auto; margin-right: auto;" }
+## Solution
+Let's consider the following figure
+![Image description](https://savchenko-physics.github.io/en/2.8.1/draw.png){: style="display: block; margin-left: auto; margin-right: auto;" }
+$a$. Applying Newton Second Law for $x$-direction
+
+$$
+T_2~\cos{30^\circ}-T_1~\cos{30^\circ}=0
+$$
+
+
+$$
+T_1=T_2 \;(1)
+$$
+
+for $y$-direction
+
+$$
+(T_1+T_2)~\sin{30^\circ} = mg \;(2)
+$$
+
+Let be $T_1=T_2=T$, so, back to $(2)$
+
+$$
+2T~\sin{30^\circ}=mg
+$$
+
+
+$$
+T = \frac{mg}{2~\sin{30^\circ}} = mg = \boxed{98~\rm{N}}
+$$
+
+$b$. According figure,
+
+$$
+F^2 = T^2+T^2 = 2T^2
+$$
+
+We consider the same tension $T$ because we suppose the threads are unextensible.
+
+$$
+F = \sqrt{2}~T \;(3)
+$$
+
+Applying Newton Second Law
+
+$$
+T = mg \;(4)
+$$
+
+Putting $(4)$ into $(3)$
+
+$$
+F = \sqrt{2}~mg = \boxed{138~\rm{N}}
+$$
+
+Note: Calculations were made considering $g$ = 9.8 N/kg and $\sqrt{2}$ = 1.41.
+
+<p style="text-align: right; font-style: italic; font-size: 14;">   
+	BSc. Luis Daniel Fernández Quintana<br>
+	Physics Department (FCNE)<br>
+	Universidad de Oriente, Cuba<br>
+</p>
+
+
+[jekyll-docs]: https://jekyllrb.com/docs/home
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
