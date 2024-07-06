@@ -1,9 +1,15 @@
 module Jekyll
-  class CustomTag < Liquid::Tag
+  class RenderTimeTag < Liquid::Tag
+
+    def initialize(tag_name, text, tokens)
+      super
+      @text = text
+    end
+
     def render(context)
-      "<div class='custom-tag'>Hello, Custom Tag!</div>"
+      "#{@text} #{Time.now}"
     end
   end
 end
 
-Liquid::Template.register_tag('custom_tag', Jekyll::CustomTag)
+Liquid::Template.register_tag('render_time', Jekyll::RenderTimeTag)
