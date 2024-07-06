@@ -4,25 +4,33 @@ title:  "Welcome to Jekyll!"
 date:   2024-07-06 00:30:49 +0300
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Since there are small oscillations, $\theta\rightarrow0$, but terms $\theta^2$ and $\theta^3$ tend to zero faster than $\theta$, so they are negligible respect to $\theta$.
 
-`YEAR-MONTH-DAY-title.MARKUP`
+$$
+\left[\frac{g}{l}-\frac{kqQ\left(l+h\right)}{mh^3l}\right]\theta = \ddot{\theta}
+$$
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+as $k = \frac{1}{4\pi\epsilon_0}$,
 
-Jekyll also offers powerful support for code snippets:
+$$
+\left[\frac{g}{l}-\frac{qQ\left(l+h\right)}{4\pi\epsilon_0mh^3l}\right]\theta = \ddot{\theta}
+$$
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom') 
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Finally,
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+$$
+\boxed{\omega = \sqrt{\frac{g}{l}-\frac{qQ\left(h+l\right)}{4\pi\epsilon_0mh^3l}}}
+$$
+
+valid for the condition $\frac{qQ(h+l)}{4\pi\epsilon_0h^3} < mg$
+
+<img align="center"  width="28px" src="https://github.com/astrosander/WallTime/blob/main/Themes/snakes.png" />
+
+<p align="center">
+  <a href="https://github.com/astrosander/cambridge-dictionary-audio" target="blank"><img src="Design/logo.png" width="120" alt="Logo" /></a>
+</p>
+
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
