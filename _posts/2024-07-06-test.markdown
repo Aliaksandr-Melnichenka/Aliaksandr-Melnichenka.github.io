@@ -26,7 +26,4 @@ $$
 valid for the condition $\frac{qQ(h+l)}{4\pi\epsilon_0h^3} < mg$
 
 
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+![Image description](https://savchenko-physics.github.io/en/4.1.13/statement.png){: style="display: block; margin-left: auto; margin-right: auto;" }
