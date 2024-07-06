@@ -16,17 +16,11 @@ as $k = \frac{1}{4\pi\epsilon_0}$,
 $$
 \left[\frac{g}{l}-\frac{qQ\left(l+h\right)}{4\pi\epsilon_0mh^3l}\right]\theta = \ddot{\theta}
 $$
+![image info](https://savchenko-physics.github.io/en/2.2.24/draw2.png)
 
 Finally,
 
 $$
 \boxed{\omega = \sqrt{\frac{g}{l}-\frac{qQ\left(h+l\right)}{4\pi\epsilon_0mh^3l}}}
 $$
-
-valid for the condition $\frac{qQ(h+l)}{4\pi\epsilon_0h^3} < mg$
-
-
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+![image info](https://savchenko-physics.github.io/en/2.2.24/statement.png)
