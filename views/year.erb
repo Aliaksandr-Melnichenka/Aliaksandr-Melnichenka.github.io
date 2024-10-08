@@ -1,0 +1,20 @@
+<div id='y<%= year.year %>' class="row <%= index.odd? ? 'odd' : 'even' %>">
+	<div class="col col-lg-12">
+		<hr>
+		<h3>
+			Республиканская олимпиада <%= year.year %> года
+		</h3>
+				<% if year.etaps['final'] %>
+					<div class="col col-lg-6">
+						<%= erb :etap, {}, { etap: year.etaps['final'], which: 'final' } %>
+					</div>
+				<% end %>
+  			<% if year.etaps['third'] %>
+      		<div class="col col-lg-6">
+        			<%= erb :etap, {}, { etap: year.etaps['third'], which: 'third' } %>
+        	</div>
+  			<% end %>
+		</ul>
+	</div>
+
+</div>

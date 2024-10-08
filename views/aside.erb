@@ -1,0 +1,10 @@
+<aside class='col col-lg-3'>
+	<nav>
+    	<ul class="nav">
+            <% Year.years.each do |year| %>
+			<%= erb :year_menu, {}, { year: year } %>
+
+			<% end %>
+        </ul>
+	</nav>
+</aside>	
